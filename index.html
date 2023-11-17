@@ -22,7 +22,7 @@
     <form action="process_form.phd" method="post">
 
       <div class="caleb">
-        <label for="name">First Name*</label><br />
+        <label for="name">First Name<span>*</span></label><br />
         <input
           type="text"
           id="name"
@@ -33,7 +33,7 @@
       
 
       
-        <label for="name">Last Name*</label><br />
+        <label for="name">Last Name<span>*</span></label><br />
         <input
           type="text"
           id="name"
@@ -44,7 +44,7 @@
       
 
       
-        <label for="gender">Gender*</label><br />
+        <label for="gender">Gender<span>*</span></label><br />
         <select id="gender" name="gender" required>
           <option disabled selected value="Select gender">Select gender</option>
           <option value="Male">Male</option>
@@ -55,12 +55,12 @@
       
 
       
-        <label for="dob">Date of Birth</label>
+        <label for="dob">Date of Birth<span>*</span></label><br>
         <input type="date" id="dob" name="dob" /><br /><br />
       
 
       
-        <label for="email">Email Address*</label><br />
+        <label for="email">Email Address<span>*</span></label><br />
         <input
           type="email"
           id="email"
@@ -71,7 +71,7 @@
       
 
       
-        <label for="education">Education Level*</label><br />
+        <label for="education">Education Level<span>*</span></label><br />
         <select id="education" name="level">
           <option disabled selected value="Select education level">Select level of education</option>
           <option value="level">Secondary Education</option>
@@ -81,7 +81,7 @@
       
 
       
-        <label for="country">Country*</label><br />
+        <label for="country">Country<span>*</span></label><br />
         <select id="country" name="country">
           <option disabled selected value="Select country">Select your country</option>
           <option value="country">Nigeria</option>
@@ -91,7 +91,7 @@
       
 
       
-        <label for="state">State/City of Residence*</label><br />
+        <label for="state">State/City of Residence<span>*</span></label><br />
         <select id="state" name="state">
           <option disabled selected value="Select state">Enter your state of residence</option>
           <option value="state">Enugu</option>
@@ -102,7 +102,7 @@
 
 
       <div class="Livinus">
-        <label for="employment">Employment Status*</label><br />
+        <label for="employment">Employment Status<span>*</span></label><br />
         <select id="employment" name="work">
           <option disabled selected value="Select employment status">
             Select employment status
@@ -113,7 +113,7 @@
         ><br /><br />
 
       
-        <label for="number">Phone Number*</label><br />
+        <label for="number">Phone Number<span>*</span></label><br />
         <input
           type="number"
           id="number"
@@ -124,7 +124,7 @@
       
 
       
-        <label for="school">Choose School*</label><br />
+        <label for="school">Choose School<span>*</span></label><br />
         <select id="school" name="school">
           <option disabled selected value="Select school">Select School</option>
           <option value="school">School Of Engineering</option>
@@ -134,7 +134,7 @@
     
 
     
-        <label for="course">Choose Course*</label><br />
+        <label for="course">Choose Course<span>*</span></label><br />
         <select id="course" name="course">
           <option disabled selected value="Select course">Choose Course Of Study</option>
           <option value="school">Frontend Engineering</option>
@@ -145,7 +145,7 @@
 
       <p>How did you hear about us?</p><br />
 
-      
+      <label for="channel">Select Your channel<span>*</span></label><br>
         <select id="course" name="channel">
           <option disabled selected value="Select channel">Select channel</option>
           <option value="school"></option>
@@ -155,7 +155,7 @@
       
 
       
-        <label for="scholarship">scholarship/Discount Code (optional)*</label><br />
+        <label for="scholarship">scholarship/Discount Code (optional)<span>*</span></label><br />
         <select id="course" name="course">
           <option disabled selected value="scholarship/Discount Code">scholarship/Discount Code</option>
           <option value="school">Livinus</option>
